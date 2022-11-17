@@ -1,0 +1,38 @@
+{
+  "name": "lab-colzer",
+  "description": "",
+  "version": "1.0.0",
+  "main": ".dist/shared/http/server.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/shared/http/server.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davicolzer/lab-colzer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davicolzer/lab-colzer/issues"
+  },
+  "homepage": "https://github.com/davicolzer/lab-colzer#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/uuid": "^8.3.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4",
+    "vitest": "^0.25.2"
+  }
+}
